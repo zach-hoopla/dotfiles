@@ -26,3 +26,4 @@ ALIAS_FILE=$BASE_CONFIG_PATH/aliases
 if [ -f $ALIAS_FILE ];
     then source $ALIAS_FILE
 fi
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
