@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-DUMP_FILE=~/Documents/hoopla-main.dump
+DUMP_FILE=~/Documents/scoreboard-main.dump
 echo "Pulling down latest database backup"
 curl -o $DUMP_FILE `heroku pgbackups:url --app scoreboard-main`
 echo "Restoring local development database"
