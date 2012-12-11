@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# Author: Aaron Kuehler
+# Purpose: Oneliner to pull down the latest 
+#          production backup and load it 
+#          into the local development database.
 DUMP_FILE=~/Documents/hoopla-main.dump
 echo "Pulling down latest database backup"
 curl -o $DUMP_FILE `heroku pgbackups:url --app hoopla-main`
