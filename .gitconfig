@@ -1,6 +1,6 @@
 [user]
-	name = Aaron Kuehler
-	email = aaron@hoopla.net
+	name = Zach Schaeffer
+	email = zach@hoopla.net
 [core]
 	editor = emacs
 	excludesfile = ~/.gitignore
